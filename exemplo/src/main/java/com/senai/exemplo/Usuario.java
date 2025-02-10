@@ -49,4 +49,13 @@ public class Usuario {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", telefone='" + telefone + '\'' +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
